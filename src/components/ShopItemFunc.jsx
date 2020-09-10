@@ -25,6 +25,6 @@ export default function ShopItemFunc(props) {
 
 }
 
-ItemModel.propTypes = {
-    item: PropTypes.instanceOf(TitleModel).isRequired
+ShopItemFunc.propTypes = {
+    item: PropTypes.instanceOf(ItemModel).isRequired
 }
